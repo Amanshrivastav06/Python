@@ -22,6 +22,6 @@
 #QUIZ
 def greet():
     user = input("Enter your name: ")
-    print(" good night" , user)
+    print("good night" , user)
 
 greet()
