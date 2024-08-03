@@ -5,8 +5,8 @@ class Empolyee:
     salary = 12000000000000000000
     language = "English"
 
-aman = Empolyee
+aman = Empolyee()
 aman.name = "Aman" # this is instance attribute. 
-aman.language = "python"
+aman.language = "python"  # iski priority jayada hogi 
 print(aman.salary, aman.language, aman.name)
 

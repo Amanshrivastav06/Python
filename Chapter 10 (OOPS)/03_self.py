@@ -12,5 +12,4 @@ aman.name = "Aman" # this is instance attribute.
 aman.language = "python"  # iski priority jayada hogi 
 aman.getInfo()
 # Empolyee.getInfo(aman) # ye dono same hai fuc ko call karne ke liye.
-
 aman.greet()
