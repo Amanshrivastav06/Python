@@ -5,7 +5,7 @@ class empolyee:
         print(f"The class attribute of a is {cls.a}")
 
     @property
-    def name(self):
+    def name(self): # ye name fuc getter ka kam krega
         return f"{self.fname} {self.lname}"
     
     @name.setter

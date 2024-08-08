@@ -3,7 +3,7 @@
 
 
 def greet(fx):
-    def mfx(*args , **kwargs):
+    def mfx(*args , **kwargs):  # ARGS = YE ARGUMENT KO TUPLE KI TRH LETA HAI || KWARGS = YE ARGUMENT KO DICTIONARY KI TRH LETA HAI 
         print("Good Morning")
         fx(*args , **kwargs) # ye hello fuction ko execute karega
         print("thanks for using this fuction")
