@@ -17,3 +17,7 @@ name = "subject"
 print(name[1:4:2]) # (1 se 4 tak pahle coutn kro ex- ubje phir 2 skip kro usi position se then - uj)
 print(name[1::3]) # isme ye last tk print krega bs 3 mtlb 2 ko skip krte rhega.
 
+print(name[:]) # print full text
+
+name2 = 'R' + name[1:] # it does not change string, it created new one
+print(name2)
